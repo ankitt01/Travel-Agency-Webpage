@@ -31,5 +31,44 @@
             </div>
         </div>
     </div>
+
+    <div class="search-tour">
+        <button class="tab-toggle">Search Tour</button>
+        <button class="tab-toggle second">Hotel</button>
+        <div class="box">
+            <label>Destination</label><br><br>
+            <i class="fas fa-search"></i><input type="text" placeholder="Search place">
+        </div>
+        <div class="box">
+            <label>Check-in-date</label><br><br>
+            <i class="fas fa-calendar-week"></i><input placeholder="Check In Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        </div>
+        <div class="box">
+            <label>Check-out-date</label><br><br>
+            <i class="fas fa-calendar-week"></i><input placeholder="Check Out Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        </div>
+        <div class="box">
+            <label>price-limit</label><br><br>
+            <i class="fas fa-chevron-down"></i><select id="price">
+                <option value="$100">$100</option>
+                <option value="$10,000">$10,000</option>
+                <option value="$50,000">$50,000</option>
+                <option value="$100000">$100,000</option>
+                <option value="$100000">$200,000</option>
+                <option value="$100000">$300,000</option>
+                <option value="$100000">$400,000</option>
+                <option value="$100000">$500,000</option>
+                <option value="$100000">$600,000</option>
+                <option value="$100000">$700,000</option>
+                <option value="$100000">$800,000</option>
+                <option value="$100000">$900,000</option>
+                <option value="$100000">$1,000,000</option>
+                <option value="$100000">$2,000,000</option>
+              </select>
+        </div>
+        <div class="search">
+            <p>Search</p>
+        </div>
+    </div>
 </body>
 </html>
