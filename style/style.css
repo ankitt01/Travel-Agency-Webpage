@@ -291,6 +291,21 @@
         .search {
             height: 55px;
         }
+
+        .adventure {
+            width: 90%;
+            margin: 400px auto;
+            grid-template-columns: 1fr;
+        }
+        .tiles {
+            grid-template-columns: 1fr;
+        }
+        .tile .services {
+            width: 100%;
+        }
+        .text {
+            padding: 100px 0px;
+        }
     }
 
 
