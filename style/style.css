@@ -286,9 +286,19 @@
     color: white;
 }
 
-
-
-
+.destination {
+    text-align: center;
+    margin: 50px 0;
+}
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+}
+.destinations .img {
+    width: 200px;
+    height: 300px;   
+}
 
 
 
@@ -350,6 +360,13 @@
         }
         .text {
             padding: 100px 0px;
+        }
+
+        .places {
+            grid-template-columns: 1fr;
+        }
+        .flat-icon3 {
+            bottom: 50px;
         }
     }
 
