@@ -289,15 +289,52 @@
 .destination {
     text-align: center;
     margin: 50px 0;
+    font-size: 24px;
 }
 .destinations {
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+    width: 60%;
+    margin: 50px auto;
+    overflow: hidden;
+    grid-gap: 20px;
 }
-.destinations .img {
-    width: 200px;
-    height: 300px;   
+.imgs {
+    height: 35vh;
+    position: relative  ;
+}
+.imgs img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.sub-card {
+        background-color: white;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 200px;
+        bottom: -80px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.imgs label {
+    color: var(--main-accent);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+.imgs p {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+} 
+p i {
+    color: var(--main-accent);
+    margin: 0 5px;
 }
 
 
