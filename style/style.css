@@ -1,5 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
     /* Variables */
     :root {
         --main-accent:#f15d30;;
@@ -337,7 +338,7 @@ p i {
     margin: 0 5px;
 }
 .about-us {
-    height: 400px;
+    height: 450px;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -359,7 +360,7 @@ p i {
         position: absolute;
         bottom: -265px;
         left: 50%;
-        transform: translateX(50%);
+        transform: translateX(-50%);
         cursor: pointer;
 }
 .memorable {
@@ -375,9 +376,55 @@ p i {
     height: 600px;
     border: 15px solid white;
     box-shadow: 0 0 120px rgba(0,0,0,0.2);
-    position: absolute;
     top: -65;
 }
+.text span {
+    font-family: 'Dancing Script', cursive;
+    color: var(--main-accent);
+    font-size: 24px;
+}
+.text p {
+    color: var(--dark-accent-color);
+}
+.text button{
+    padding: 10px 15px;
+    background-color: var(--main-accent);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.testimonial {
+    background-image: url('../img/bg_1.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: darken;
+    margin-bottom: 50px;
+}
+.testimonial .overlay {
+    background: linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
+    opacity: 0.6;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    width: 60%;
+}
+.content span {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.testimonial h2 {
+    color: white;
+    text-align: center;
+} 
 
 
 
@@ -464,6 +511,28 @@ p i {
             height: 171px;
             bottom: -119px;
             padding: 14px;
+        }
+
+        .memorable {
+            grid-template-columns: 1fr;
+            width: 100%;
+            top: -108px;
+            left: 82px;
+            margin: auto;
+        }
+        .memorable .img {
+            height: 459px;
+        }
+        .text {
+            position: absolute;
+            top: 490px;
+            left: -59px;
+            padding: 20px;
+            width: 90%;
+        }
+        .text h1 {
+            line-height: 1.2;
+            margin-bottom: 28px;
         }
     }
 
