@@ -405,6 +405,26 @@ p i {
         .flat-icon3 {
             bottom: 50px;
         }
+
+        .destination {
+            margin-top: 1155px;
+            margin-bottom: 50px;
+        }
+        .destinations {
+            grid-template-columns: 1fr;
+            width: 100%;
+            margin-top: 60px;
+            height: auto;
+        }
+        .imgs {
+            height: 327px;
+            margin-bottom: 162px;
+        }
+        .sub-card {
+            height: 171px;
+            bottom: -119px;
+            padding: 14px;
+        }
     }
 
 
