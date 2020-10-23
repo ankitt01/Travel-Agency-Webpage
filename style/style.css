@@ -336,8 +336,48 @@ p i {
     color: var(--main-accent);
     margin: 0 5px;
 }
-
-
+.about-us {
+    height: 400px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bg_4.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.div22 {
+    position: relative;
+}
+.div22 i{
+    margin: auto;
+        background: var(--light-accent-color);
+        color: var(--main-accent);
+        padding: 20px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -265px;
+        left: 50%;
+        transform: translateX(50%);
+        cursor: pointer;
+}
+.memorable {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: -93px;
+}
+.memorable img {
+    height: 600px;
+    border: 15px solid white;
+    box-shadow: 0 0 120px rgba(0,0,0,0.2);
+    position: absolute;
+    top: -65;
+}
 
 
 
