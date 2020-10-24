@@ -395,39 +395,82 @@ p i {
 }
 .testimonial {
     background-image: url('../img/bg_1.jpg');
-    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-blend-mode: darken;
     margin-bottom: 50px;
+    position: relative;
 }
 .testimonial .overlay {
     background: linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
     opacity: 0.6;
     width: 100%;
-    height: 80vh;
     position: absolute;
+    height: 100%;
 }
 
 .content {
     position: relative;
     margin: auto;
     width: 60%;
+    z-index: 1;
+    padding: 2rem;
 }
 .content span {
     font-family: 'Dancing Script', cursive;
     color: white;
     text-align: center;
     margin: auto;
+    display: block;
+    font-size: 28px;
 }
 .testimonial h2 {
     color: white;
     text-align: center;
+    font-size: 38px;
 } 
 
-
-
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 60px;
+}
+.block {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.block p {
+    color: #949494;
+    line-height: 1.7;
+}
+.bottom {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom label {
+    color: var(--main-accent);
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 700;
+}
+.bottom img {
+    width: 100px;
+    border-radius: 0 50% 50% 50%;
+}
+.star i {
+    color: var(--main-accent);
+    margin-bottom: 10px;
+}
 
 
     @media only screen and (max-width: 600px) {
