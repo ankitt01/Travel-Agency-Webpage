@@ -478,15 +478,29 @@ p i {
             width: 100%;
             background-color: black;
             margin: 0;
-            height: 90px;
+            height: 130px;
+            padding: 20px 0;
+            background-color: rgba(0,0,0,0);
+            
+        }
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .item-list {
+            margin-top: 65px;
         }
         .title-container {
             height: 120vh;
         }
         .title-heading {
             grid-template-columns: 1fr;
-            height: 60vh;
+            height: 36vh;
             width: 90%;
+        }
+        .text {
+            display: none;
         }
         .div1 h1 {
             font-size: 30px;
@@ -498,7 +512,7 @@ p i {
         }
         .search-tour {
             grid-template-columns: 1fr;
-            top: 100%;
+            top: 60%;
             width: 90%;
             border-radius: 5px;
         }
@@ -515,7 +529,7 @@ p i {
 
         .adventure {
             width: 90%;
-            margin: 400px auto;
+            margin: 50px auto;
             grid-template-columns: 1fr;
             margin-bottom: 0px;
         }
@@ -576,6 +590,31 @@ p i {
         .text h1 {
             line-height: 1.2;
             margin-bottom: 28px;
+        }
+
+        .memorable {
+            left: 0px;
+            grid-template-rows: 1fr 1fr;
+            height: 870px;
+        }
+        .memorable img {
+            width: 100%;
+        }
+        .text {
+            top: 623;
+            padding: 20px;
+            width: 100%;
+            left: 0;
+            margin-top: 122px;
+        }
+        .content {
+            width: 100%;
+        }
+        .wrap {
+            grid-template-columns: 1fr;
+        }
+        .bottom {
+            padding-top: 2rem;
         }
     }
 
